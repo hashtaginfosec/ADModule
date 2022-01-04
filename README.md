@@ -14,7 +14,7 @@ PS C:\\> Import-Module C:\ADModule\Microsoft.ActiveDirectory.Management.dll -Ver
 
 You can also use the Import-ActiveDirectory.ps1 (Thanks to PR by @D1iv3) to load the script using download-execute cradles and without writing the DLL to disk:
 
-PS C:\\> iex (new-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/samratashok/ADModule/master/Import-ActiveDirectory.ps1');Import-ActiveDirectory
+PS C:\\> iex (new-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/hashtaginfosec/ADModule/master/Import-ActiveDirectory.ps1');Import-ActiveDirectory
 ![Alt text](/img/AD_Module_Array.png?raw=true "ADModule_Array")
 
 
